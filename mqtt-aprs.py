@@ -6,6 +6,7 @@ __copyright__ = "Copyright (C) Mike Loebl"
 
 # Script based on mqtt-owfs-temp written by Kyle Gordon and converted for use with APRS
 # Source: https://github.com/kylegordon/mqtt-owfs-temp
+# APRS is a registered trademark Bob Bruninga, WB4APR
 
 import os
 import logging
