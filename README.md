@@ -1,5 +1,5 @@
 # mqtt-aprs
-Connects to the specified APRS-IS server, and posts the APRS output to MQTT.  Can parse parameters, or dump the raw JSON.
+Connects to the specified APRS-IS server, and posts the APRS output to MQTT.  Can parse parameters, or dump the raw JSON from aprslib.  It's currently for receive only from APRS-IS and sending to an MQTT server.
 
 This script uses the aprslib python function to do the heavy APRS lifting.
 
