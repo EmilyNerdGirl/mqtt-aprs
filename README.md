@@ -23,3 +23,5 @@ cp /usr/local/mqtt-aprsp/mqtt-aprs.default /etc/default/mqtt-aprs
 Edit /etc/default/mqtt-aprs and /etc/mqtt-aprs/mqtt-aprs.cfg to suit:
 
 `/etc/init.d/mqtt-aprs start`
+
+APRS is a registered trademark Bob Bruninga, WB4APR
