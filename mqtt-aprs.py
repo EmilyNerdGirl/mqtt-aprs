@@ -295,8 +295,8 @@ def callback(packet):
         if altitude:
             if METRICUNITS is "0":
                 altitude = altitude / 0.3048
-            logging.debug("altitude: %s", altitude)
-            publish_aprstomqtt(ssid, "altitude",altitude)
+            logging.debug("altitude: %s", round(altitude, 0))
+            publish_aprstomqtt(ssid, "altitude",round(altitude, 0))
 
         comment = aprspacket.get('comment', None)
         if comment:
@@ -367,10 +367,6 @@ def aprs_connect():
         aprs.consumer(callback, raw=True)
     else:
         aprs.consumer(callback)
-
-
-  
-
                     
 # Use the signal module to handle signals
 signal.signal(signal.SIGTERM, cleanup)
