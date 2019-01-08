@@ -29,3 +29,5 @@ Start the service:
 `/etc/init.d/mqtt-aprs start`
 
 APRS is a registered trademark Bob Bruninga, WB4APR
+
+Forked from original https://github.com/kylegordon/mqtt-owfs-temp, and customised for use with APRS
